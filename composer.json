@@ -1,14 +1,14 @@
 {
-    "name": "sammyk/laravel-facebook-sdk",
+    "name": "violetshih/laravel-facebook-sdk",
     "description": "Fully unit tested Facebook SDK v5 integration for Laravel & Lumen 5.x",
     "keywords": ["facebook", "laravel", "lumen", "sdk", "facebook sdk v4", "facebook sdk v5"],
-    "homepage": "https://github.com/SammyK/LaravelFacebookSdk",
+    "homepage": "https://github.com/violetshih/LaravelFacebookSdk",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sammy Kaye Powers",
-            "email": "me@sammyk.me",
-            "homepage": "http://sammyk.me",
+            "name": "violetshih",
+            "email": "",
+            "homepage": "",
             "role": "Developer"
         }
     ],
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "SammyK\\LaravelFacebookSdk\\": "src/LaravelFacebookSdk"
+            "violetshih\\LaravelFacebookSdk\\": "src/LaravelFacebookSdk"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SammyK\\LaravelFacebookSdk\\Test\\": "tests"
+            "violetshih\\LaravelFacebookSdk\\Test\\": "tests"
         }
     },
     "branch-alias": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SammyK\\LaravelFacebookSdk\\LaravelFacebookSdkServiceProvider"
+                "violetshih\\LaravelFacebookSdk\\LaravelFacebookSdkServiceProvider"
             ],
             "aliases": {
-                "Facebook": "SammyK\\LaravelFacebookSdk\\FacebookFacade"
+                "Facebook": "violetshih\\LaravelFacebookSdk\\FacebookFacade"
             }
         }
     }
