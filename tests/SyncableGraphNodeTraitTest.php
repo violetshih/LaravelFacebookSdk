@@ -1,7 +1,7 @@
-<?php namespace SammyK\LaravelFacebookSdk\Test;
+<?php namespace Violetshih\LaravelFacebookSdk\Test;
 
 use Facebook\GraphNodes\GraphNode;
-use SammyK\LaravelFacebookSdk\SyncableGraphNodeTrait;
+use Violetshih\LaravelFacebookSdk\SyncableGraphNodeTrait;
 
 class FakeModel extends \Illuminate\Database\Eloquent\Model
 {

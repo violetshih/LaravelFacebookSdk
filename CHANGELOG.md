@@ -44,14 +44,14 @@
 
 ## 3.2.0 - November 12, 2015
 
-- Added ability to create new instances of `LaravelFacebookSdk` with a [different app settings](https://github.com/SammyK/LaravelFacebookSdk/tree/3.0#working-with-multiple-apps).
+- Added ability to create new instances of `LaravelFacebookSdk` with a [different app settings](https://github.com/Violetshih/LaravelFacebookSdk/tree/3.0#working-with-multiple-apps).
 
 
 ## 3.1.0 - September 3, 2015
 
-- Added [fillable fields](https://github.com/SammyK/LaravelFacebookSdk/tree/3.0#specifying-fillable-fields) feature.
-- Added [array dot notation to field mapping](https://github.com/SammyK/LaravelFacebookSdk/tree/3.0#nested-field-mapping).
-- Added feature to convert [`DateTime` to string format](https://github.com/SammyK/LaravelFacebookSdk/tree/3.0#date-formats).
+- Added [fillable fields](https://github.com/Violetshih/LaravelFacebookSdk/tree/3.0#specifying-fillable-fields) feature.
+- Added [array dot notation to field mapping](https://github.com/Violetshih/LaravelFacebookSdk/tree/3.0#nested-field-mapping).
+- Added feature to convert [`DateTime` to string format](https://github.com/Violetshih/LaravelFacebookSdk/tree/3.0#date-formats).
 
 
 ## 3.0.2 - July 21, 2015
@@ -84,7 +84,7 @@
 
 - Upgraded to work on Laravel 5! Yay!
 - Upgraded to use the latest Facebook PHP SDK ~~v4.1~~ **v5**.
-- Removed the [Facebook Query Builder](https://github.com/SammyK/FacebookQueryBuilder) dependency.
+- Removed the [Facebook Query Builder](https://github.com/Violetshih/FacebookQueryBuilder) dependency.
 - Removed the migration stub since there's only one column we need to add for most cases.
 - Removed the config, route & view for the `channel.html` since that seems to be deprecated.
 - Renamed `FacebookableTrait` to `SyncableGraphNodeTrait` since the Graph API returns nodes, not objects.
@@ -93,7 +93,7 @@
 - Added support for re-requests and re-authentications.
 - Removed `LaravelFacebookSdkException` to let all the native PHP SDK's exceptions fall through.
 - Removed all the weird authentication crap that didn't make any sense.
-- Bound the package to the IoC container as `SammyK\LaravelFacebookSdk\LaravelFacebookSdk` instead of the old `facebook-query-builder`.
+- Bound the package to the IoC container as `Violetshih\LaravelFacebookSdk\LaravelFacebookSdk` instead of the old `facebook-query-builder`.
 
 
 ## 1.1.1 - December 11, 2014
@@ -104,7 +104,7 @@
 ## 1.1.0 - July 16, 2014
 
 - Adjusted tagging to work according to [semver](http://semver.org/).
-- Updated version of [Facebook Query Builder](https://github.com/SammyK/FacebookQueryBuilder) for semver fix.
+- Updated version of [Facebook Query Builder](https://github.com/Violetshih/FacebookQueryBuilder) for semver fix.
 - Added CHANGELOG.
 
 
